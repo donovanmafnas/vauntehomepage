@@ -1,0 +1,38 @@
+body {
+	margin: 0;
+}
+
+#main-contain {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#super-hero-contain {
+	width: 100%;
+}
+
+#sh-l-col, #sh-r-col {
+	width: 50%;
+	height: 300px;
+	display: inline-block;
+	margin-top: 80px;
+}
+
+#sh-l-col {
+	background-color: green;
+}
+
+#sh-r-col {
+	background-color: red;
+	margin-left: -4px;
+}
+
+#place-holder-nav {
+	width: 100%;
+	height: 80px;
+	position: fixed;
+	background-color: #fff;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-color-color: #ccc;
+}
