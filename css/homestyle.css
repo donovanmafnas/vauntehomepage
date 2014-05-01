@@ -1,9 +1,11 @@
 body {
 	margin: 0;
+	background-color: #faf8f5;
 }
 
 #main-contain {
-	width: 1000px;
+	width: 78%;
+	max-width: 1000px;
 	margin: 0 auto;
 }
 
@@ -16,15 +18,20 @@ body {
 	height: 300px;
 	display: inline-block;
 	margin-top: 80px;
+	background-color: #fff;
 }
 
 #sh-l-col {
-	background-color: green;
+	border-left-style: solid;
+	border-left-width: thin;
+	border-left-color: #ccc;
 }
 
 #sh-r-col {
-	background-color: red;
-	margin-left: -4px;
+	border-right-style: solid;
+	border-right-width: thin;
+	border-right-color: #ccc;	
+	margin-left: -6px;
 }
 
 #place-holder-nav {
@@ -32,7 +39,36 @@ body {
 	height: 80px;
 	position: fixed;
 	background-color: #fff;
+	border-bottom-style: solid;	
+	border-bottom-color: #ccc;	
 	border-bottom-width: thin;
-	border-bottom-style: solid;
-	border-color-color: #ccc;
+}
+
+#mh-l-col, #mh-r-col {
+	width: 50%;
+	height: 800px;
+	display: inline-block;
+	background-color: #fff;
+}
+
+#micro-hero-contain {
+	margin-top: -4px;
+	width: 100%;
+	background-color: #fff;	
+	border-top-style: solid;	
+	border-top-color: #ccc;	
+	border-top-width: thin;	
+}
+
+#mh-l-col {
+	border-left-style: solid;
+	border-left-width: thin;
+	border-left-color: #ccc;
+}
+
+#mh-r-col {
+	border-right-style: solid;
+	border-right-width: thin;
+	border-right-color: #ccc;	
+	margin-left: -6px;
 }
